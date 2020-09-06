@@ -1,0 +1,119 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Font links -->
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>JS/JQ PRACTICE C-27</title>
+  </head>
+  <body> 
+  	 <!--header start-->
+   <header>
+     <div class="container">
+     <div class="row">
+       <div class="col-md-12">
+         <h1>Click here to change the text</h1>
+         <button type="button" class=" btn btn-warning" onclick="textChange()">Click me</button>
+         <p id="p">Click here to change the text</p>
+       </div>
+     </div>
+  
+   </header>
+
+   <!--header end-->
+   <div class="container">
+            <h1 class="text-center display-6 pb-3 text-success">JS/JQ PRACTICE C-27</h1>
+            <br>
+            <br>
+            <h2> Hide </h2>
+            <div>
+                <button class="btn btn-outline-info hide-btn">Click Me</button>
+                <h4 class="h4-hide">Lorem, ipsum dolor sit amet. I will be hidden.</h4>
+            </div>
+            <br>
+            <br>
+            <h2>Show</h2>
+            <div>
+                <button class="btn btn-outline-warning show-btn">Click Me</button>
+                <h4 class="h4-show">Ta da! Thanks for bring me back to life.</h4>
+            </div>
+            <br>
+            <br>
+            <h2>Toggle</h2>
+            <div>
+                <button class="btn btn-outline-danger toggle-btn">Click Me</button>
+                <h4 class="h4-toggle">Yo! Toggle Me. It's fun.</h4>
+            </div>
+            <br>
+            <br>
+            <h2>Fade In</h2>
+            <div>
+                <button class="btn btn-outline-info fadein-btn">Just Click</button>
+                <h4 class="h4-fadein text-info">Padora Box!</h4>
+            </div>
+            <br>
+            <br>
+            <h2>Fade Out</h2>
+            <div>
+                <h4 class="h4-fadeout text-success">Hover to make me fade.</h4>
+            </div>
+            <br>
+            <br>
+            <h2>FadeToggle</h2>
+            <div>
+                <button class="btn btn-outline-info fadetoggle-btn">Fade Toggle</button>
+                <h4 class="h4-fadetoggle">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel, totam.</h4>
+            </div>
+            <br>
+            <br>
+            <h2>FadeTo</h2>
+            <div>
+                <button class="btn btn-outline-info fadeto-btn">Fade Opacity</button>
+                <div class="div-fadeto mt-2"></div>
+            </div>
+            <br>
+            <br>
+            <h2>Slide Down</h2>
+            <div>
+                <h4 class="slidedown-h4 p-2 bg-light d-inline-block">Click to slide down</h4>
+                <h4 id="slidedown">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, sapiente.</h4>
+            </div>
+            <br>
+            <br>
+            <h2>Slide Up</h2>
+            <div>
+                <h4 class="slideup-h4 p-2 bg-secondary text-white d-inline-block">Click to slide up</h4>
+                <h4 id="slideup">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, sapiente.</h4>
+            </div>
+            <br>
+            <br>
+            <h2>Slide Toggle</h2>
+            <div>
+                <h4 class="slidetoggle-h4 p-2 bg-dark text-white d-inline-block">Click to toogle slide</h4>
+                <h4 id="slidetoggle" class="bg-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, assumenda corrupti accusantium aliquid corporis, recusandae?</h4>
+            </div>
+           
+	    
+    <!-- Optional JavaScript -->
+    <!-- JS links -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      function textChange(){
+        document.getElementById("p").innerHTML="Welcome to Shikhbe Shobai family";
+      }
+    </script>
+  </body>
+</html>
